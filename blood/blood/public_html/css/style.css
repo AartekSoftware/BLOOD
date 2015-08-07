@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* import CSS files */
+@import url("blood.css");
+@import url("blood-responsive.css");
+@import url("blood-docs.css");
+
+/* CSS Documents */
+body {
+	margin: 0;
+	padding: 0;
+	background: #faebd7;
+}
+.wrapper,
+header,
+section,
+footer {
+	width: 100%;
+}
+.container {
+	width: 980px;
+}
+
+/* Header CSS */
+header {
+	padding: 20px 0 0 0;
+	margin: 0;
+}
+header .head-top,
+header .head-bottom {
+	width: 100%;
+}
+header .head-top {
+	padding: 0 0 20px 0;
+	margin: 0 0 20px 0;
+	border-bottom: 4px solid #990100;
+}
+header .logo {
+    width: 100%;
+}
+header .logo img {
+    width: 90px;
+    height: 90px;
+}
+header .nav {
+	float: right;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+header .nav-pills > li > a {
+	color: #990100;
+}
+header .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+	background-color: #990100;
+}
+header .nav > li > a:hover, .nav > li > a:focus {
+	color: #FFF;
+	background-color: #990100;
+}
+#myCarousel img {
+	width: 1170px;
+	height: 400px;
+}
+/* Middle body */
+section {
+	margin: 0;
+	padding: 0;
+}
+section h3,
+section h5 {
+	color: #990100;
+	border-bottom: 1px dotted #990100;
+}
+section p {
+	text-align: justify;
+}
+.slider {
+	width: 100%;
+}
+.search-box {
+	width: 100%;
+	padding: 20px 0px;
+	margin-bottom: 30px;
+	background-color: #990100;
+}
+.search-box .find-donor {
+	width: 100%;
+	height: 13px;
+	background-image: url(../img/fdbg.png);
+	background-repeat: repeat;
+	background-position: 0 0;
+	margin-bottom: 15px;
+}
+.search-box .find-donor h3 {
+	width: 140px;
+	color: #da9c9f;
+	line-height: 13px;
+	margin: 0;
+	padding: 0;
+	background-color: #990100;
+}
+.search-box .search-form {
+	width: 100%;
+}
+.search-box form {
+	margin: 0;
+}
+.search-box input[type="submit"].btn {
+	width: 80px;
+}
+.media-object {
+    margin-right: 15px;
+}
+section .media {
+	text-align: justify;
+}
+/* Right side bar */
+section .donor {
+	width: 92%;
+	background-color: #990100;
+	padding: 4%;
+}
+section .donor .find-form {
+	width: 84%;
+	padding: 8%;
+	background-color:#FFF;
+	margin: 0;
+}
+.find-form select {
+	width: 100%;
+}
+.find-form legend {
+	color: #990100;
+	border-color: #990100;
+}
+/* Registration */
+.registration {
+	width: 100%;
+}
+.registration label span {
+	color: #990100;
+}
+.registration em {
+	font-style: italic;
+	font-size: 11px;
+	display: block;
+	margin-top: -5px;
+	line-height: 10px;
+	margin-bottom: 10px;
+}
+.registration .mm {
+	width: 70px;
+}
+.registration .yy {
+	width: 80px;
+}
+.registration ul li {
+	list-style-image: url(../img/frm-tick-icon.gif);
+}
+/* search */
+#search .table {
+    font-size: 12px;
+}
+#search .table th,
+#search .table td {
+    padding: 4px;
+}
+#search table p {
+    text-align: center;
+    margin: 0px;
+}
+/* Scrollup CSS */
+.scrollup {
+	width: 40px;
+	height: 40px;
+	text-indent: -9999em;
+	opacity: 0.3;
+	position: fixed;
+	bottom: 30px;
+	right: 50px;
+	display: none;
+	background: url(../img/icon_top.png) no-repeat;
+}
+.scrollup:hover {
+	opacity: 1;
+}
+
+/* Footer */
+footer {
+	padding: 20px 0 0 0;
+	margin: 30px 0 20px 0;
+	border-top: 4px solid #990100;
+}
+footer .nav {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+footer .nav-pills > li > a {
+	color: #990100;
+}
+footer .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+	background-color: #990100;
+}
+footer .nav > li > a:hover, .nav > li > a:focus {
+	color: #FFF;
+	background-color: #990100;
+}
+/* Social */
+footer .social {
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+.social ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.social ul li {
+	margin: 0 0 0 10px;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+.social a.fb {
+	float: left;
+	text-indent: -9999em;
+	width: 31px;
+	height: 31px;
+	background-image: url(../img/social-icons.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.social a.tw {
+	float: left;
+	text-indent: -9999em;
+	width: 31px;
+	height: 31px;
+	background-image: url(../img/social-icons.png);
+	background-repeat: no-repeat;
+	background-position: -31px 0px;
+}
+.social a.fb:hover {
+	background-position: 0px -31px;
+}
+.social a.tw:hover {
+	background-position: -31px -31px;
+}

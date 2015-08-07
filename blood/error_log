@@ -1,0 +1,45 @@
+[23-Sep-2014 21:28:04 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/webnevgm/public_html/blood/application/views/template/includes/header.php on line 23
+[25-Sep-2014 10:09:33 Etc/GMT] PHP Fatal error:  Call to a member function model() on a non-object in /home/webnevgm/public_html/blood/application/controllers/template/ajax.php on line 10
+[25-Sep-2014 10:09:38 Etc/GMT] PHP Fatal error:  Call to a member function model() on a non-object in /home/webnevgm/public_html/blood/application/controllers/template/ajax.php on line 10
+[25-Sep-2014 10:09:45 Etc/GMT] PHP Fatal error:  Call to a member function model() on a non-object in /home/webnevgm/public_html/blood/application/controllers/template/ajax.php on line 10
+[25-Sep-2014 10:10:02 Etc/GMT] PHP Fatal error:  Call to a member function model() on a non-object in /home/webnevgm/public_html/blood/application/controllers/template/ajax.php on line 10
+[25-Sep-2014 10:10:11 Etc/GMT] PHP Fatal error:  Call to a member function model() on a non-object in /home/webnevgm/public_html/blood/application/controllers/template/ajax.php on line 10
+[25-Sep-2014 10:10:29 Etc/GMT] PHP Fatal error:  Call to a member function model() on a non-object in /home/webnevgm/public_html/blood/application/controllers/template/ajax.php on line 10
+[29-Sep-2014 11:38:26 Etc/GMT] PHP Fatal error:  Class 'Model_request' not found in /home/webnevgm/public_html/blood/system/core/Loader.php on line 303
+[30-Sep-2014 11:32:15 Etc/GMT] PHP Fatal error:  Class 'Model_admin' not found in /home/webnevgm/public_html/blood/system/core/Loader.php on line 303
+[30-Sep-2014 11:33:52 Etc/GMT] PHP Fatal error:  Class 'Model_admin' not found in /home/webnevgm/public_html/blood/system/core/Loader.php on line 303
+[30-Sep-2014 11:36:51 Etc/GMT] PHP Fatal error:  Class 'Model_admin' not found in /home/webnevgm/public_html/blood/system/core/Loader.php on line 303
+[30-Sep-2014 11:40:17 Etc/GMT] PHP Fatal error:  Class 'Model_admin' not found in /home/webnevgm/public_html/blood/system/core/Loader.php on line 303
+[30-Sep-2014 11:42:21 Etc/GMT] PHP Fatal error:  Call to undefined method Model_admin::input_post() in /home/webnevgm/public_html/blood/application/models/admin/model_admin.php on line 17
+[30-Sep-2014 11:53:27 Etc/GMT] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/webnevgm/public_html/blood/application/models/admin/model_admin.php on line 44
+[30-Sep-2014 12:43:19 Etc/GMT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/webnevgm/public_html/blood/application/controllers/admin/logout.php on line 17
+[18-Oct-2014 21:54:45 Etc/GMT] PHP Fatal error:  Call to undefined function view() in /home/softsno8/public_html/websites/blood/application/views/template/includes/header.php on line 63
+[18-Oct-2014 22:20:18 Etc/GMT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/softsno8/public_html/websites/blood/application/views/template/includes/header.php on line 48
+[18-Oct-2014 22:20:39 Etc/GMT] PHP Fatal error:  Call to a member function segment() on a non-object in /home/softsno8/public_html/websites/blood/application/views/template/includes/header.php on line 48
+[19-Oct-2014 20:38:47 Etc/GMT] PHP Fatal error:  Class 'Model_request' not found in /home/softsno8/public_html/websites/blood/system/core/Loader.php on line 303
+[19-Oct-2014 20:40:08 Etc/GMT] PHP Fatal error:  Class 'Model_request' not found in /home/softsno8/public_html/websites/blood/system/core/Loader.php on line 303
+[19-Oct-2014 21:27:37 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/softsno8/public_html/websites/blood/application/views/admin/user_request.php on line 62
+[19-Oct-2014 21:59:52 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/softsno8/public_html/websites/blood/application/views/admin/user_request.php on line 14
+[20-Oct-2014 10:41:05 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/softsno8/public_html/websites/blood/application/models/admin/model_user.php on line 45
+[20-Oct-2014 11:01:14 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/softsno8/public_html/websites/blood/application/controllers/admin/user.php on line 83
+[20-Oct-2014 11:23:18 Etc/GMT] PHP Fatal error:  Call to undefined function validation_erros() in /home/softsno8/public_html/websites/blood/application/views/admin/change_password.php on line 18
+[20-Oct-2014 11:34:47 Etc/GMT] PHP Fatal error:  Call to a member function chagnePassword() on a non-object in /home/softsno8/public_html/websites/blood/application/controllers/admin/user.php on line 99
+[20-Oct-2014 11:35:18 Etc/GMT] PHP Fatal error:  Call to a member function changePassword() on a non-object in /home/softsno8/public_html/websites/blood/application/controllers/admin/user.php on line 99
+[20-Oct-2014 12:16:23 Etc/GMT] PHP Fatal error:  Call to a member function set_error_delimiters() on a non-object in /home/softsno8/public_html/websites/blood/application/controllers/admin/dashboard.php on line 41
+[20-Oct-2014 20:28:41 Etc/GMT] PHP Fatal error:  Call to undefined function rules() in /home/softsno8/public_html/websites/blood/application/controllers/admin/dashboard.php on line 45
+[21-Oct-2014 11:24:39 Etc/GMT] PHP Fatal error:  Class 'Model_contact' not found in /home/softsno8/public_html/websites/blood/system/core/Loader.php on line 303
+[21-Oct-2014 12:01:01 Etc/GMT] PHP Fatal error:  Function name must be a string in /home/softsno8/public_html/websites/blood/application/models/admin/model_message.php on line 16
+[21-Oct-2014 12:03:19 Etc/GMT] PHP Fatal error:  Function name must be a string in /home/softsno8/public_html/websites/blood/application/models/admin/model_message.php on line 16
+[21-Oct-2014 12:03:49 Etc/GMT] PHP Fatal error:  Function name must be a string in /home/softsno8/public_html/websites/blood/application/models/admin/model_message.php on line 16
+[21-Oct-2014 12:04:34 Etc/GMT] PHP Fatal error:  Function name must be a string in /home/softsno8/public_html/websites/blood/application/models/admin/model_message.php on line 16
+[21-Oct-2014 12:05:22 Etc/GMT] PHP Fatal error:  Function name must be a string in /home/softsno8/public_html/websites/blood/application/models/admin/model_message.php on line 16
+[21-Oct-2014 12:07:05 Etc/GMT] PHP Fatal error:  Function name must be a string in /home/softsno8/public_html/websites/blood/application/models/admin/model_message.php on line 16
+[21-Oct-2014 20:11:54 Etc/GMT] PHP Fatal error:  Non-abstract method Model_message::getMessageData() must contain body in /home/softsno8/public_html/websites/blood/application/models/admin/model_message.php on line 30
+[21-Oct-2014 20:14:27 Etc/GMT] PHP Fatal error:  Non-abstract method Model_message::getMessageData() must contain body in /home/softsno8/public_html/websites/blood/application/models/admin/model_message.php on line 30
+[21-Oct-2014 20:14:30 Etc/GMT] PHP Fatal error:  Non-abstract method Model_message::getMessageData() must contain body in /home/softsno8/public_html/websites/blood/application/models/admin/model_message.php on line 30
+[21-Oct-2014 20:14:56 Etc/GMT] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/softsno8/public_html/websites/blood/application/models/admin/model_message.php on line 35
+[21-Oct-2014 21:46:25 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/softsno8/public_html/websites/blood/application/views/admin/profile.php on line 39
+[02-Nov-2014 15:54:29 Etc/GMT] PHP Fatal error:  Call to undefined function validation_erros() in /home/softsno8/public_html/websites/blood/application/views/template/login.php on line 9
+[02-Nov-2014 16:24:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/softsno8/public_html/websites/blood/application/controllers/template/login.php on line 40
+[02-Nov-2014 16:32:50 Etc/GMT] PHP Parse error:  syntax error, unexpected ''</pre>'' (T_CONSTANT_ENCAPSED_STRING) in /home/softsno8/public_html/websites/blood/application/views/template/mypage.php on line 11
+[02-Nov-2014 18:22:42 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/softsno8/public_html/websites/blood/application/controllers/template/mypage.php on line 34

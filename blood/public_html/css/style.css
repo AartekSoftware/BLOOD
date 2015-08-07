@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* import CSS files */
+@import url("blood.css");
+@import url("blood-responsive.css");
+@import url("blood-docs.css");
+@import url("main-menu.css");
+@import url("jquery.bxslider.css");
+/* CSS Documents */
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #F9F9F1;
+	color: #000
+}
+header,
+section,
+footer {
+	width: 100%
+}
+
+.wrapper {
+	width: 1020px;
+	margin: 0 auto
+}
+.clearfix { clear: both }
+/* Logo */
+.logo {
+	width: 100%;
+	margin-top: 10px;
+}
+.logo img {
+	width: 130px;
+	height: 100px
+}
+/* Top menu */
+.top-menu {
+	width: 100%
+}
+/* Social Icon */
+.top-menu .seprator {
+	padding: 4px 0px;
+	margin: 2px 0px
+}
+.social-icon {
+	width: 100%;
+	margin-top: 30px;
+}
+ul.social {
+	margin: 0;
+	padding:0
+}
+ul.social li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block
+}
+ul.social li a {
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin-left: 3px;
+	text-indent: -9999em;
+	background-image: url(../images/social-icon.gif);
+	background-repeat: no-repeat;	
+}
+ul.social li a.fb { background-position: 0px 0px }
+ul.social li a.tw { background-position: -25px 0px }
+ul.social li a.gp { background-position: -50px 0px }
+ul.social li a.li { background-position: -75px 0px }
+ul.social li a.yt { background-position: -100px 0px }
+ul.social li a.pr { background-position: -125px 0px }
+/* Slider */
+.banner {
+	width: 100%;
+	background: #f9f9f1 url(../images/sliderbg.png) repeat-x left top;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 0 0 8px 8px;
+	-webkit-box-shadow: #666 1px 5px 4px;
+	-moz-box-shadow: #666 1px 5px 4px;
+	box-shadow: #666 1px 5px 4px;
+}
+/* Search box */
+.search {
+	padding: 10px;
+	margin: 3% 0 0 2%;
+	background: #A3010D;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-khtml-border-radius: 0px 0px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	width: 100%;
+}
+.search .btn {
+	width: 100%;
+}
+
+/* body content */
+section { padding-top: 20px; }
+.content {
+	padding: 0 2% 1% 2%;
+	background: #FCF9F5 url(../images/content_bg.png) repeat-x;
+	border: 1px solid #AFB6C2;
+}
+.heading {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #1D488A;
+	border-bottom: 1px solid #bbb;
+	padding: 15px 0 10px 0;
+}
+.sub-heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #A3010D;
+	line-height: 12px;
+	margin-top: 20px;
+}
+.content p {
+	text-align: justify
+}
+/* Find From */
+.find-form { margin: 0 }
+.find-form legend {
+    color: #FFF;
+    line-height: 30px;
+    margin-bottom: 6px
+}
+/* footer content */
+.footer-content {
+	background: #1A4D8F;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 8px 0px 5px 14px;
+	font-weight: normal;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-khtml-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 20px 20px;
+	height: 50px;	
+	font-family: Arial, Helvetica, sans-serif;
+}
+.footer-content ul.nav {
+	margin: 10px 0;
+}
+.footer-content ul.nav li a { color: #FFF }
+.footer-content ul.nav li a:hover { color: #1A4D8F }
+.footer-content ul.social {
+	margin: 10px 20px 10px 0;
+}
+.bx-wrapper .bx-pager {
+	display: none;
+}
